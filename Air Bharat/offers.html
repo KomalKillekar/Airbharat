@@ -1,0 +1,127 @@
+<html>
+<head>
+  <link rel="stylesheet" href="offers1.css"></head>
+<header>
+      <header>
+        <div class="logo">
+          <a href="#"><img src="C:\Users\komal\OneDrive\Desktop\Air Bharat\Images\logo.jpg"alt="logo" /></a>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="air.html">Home</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="index.html">Where We Fly</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="offers.html">FAQs</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+
+
+<body>
+    <div class="wrapper">
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq">
+        <button class="accordion">
+          Till when can I cancel/refund my booking online?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>• On domestic flights you can cancel/ refund till 3 hours prior to flight departure
+• On international flights you can cancel/ refund till 4 hours prior to flight departure
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How can a refund for a cancelled ticket be obtained?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>Refund for cancelled tickets will be processed after the deduction of appropriate cancellation fees, which may take up to 7 working days. 
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Do I need to book a separate seat for an Infant?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How do I book snacks for my flight online and what are the charges?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>Complimentary snacks are not served on-board our flights. However, you may pre-book your snack while making your reservation or add it later online or by calling our call center. If you have not pre-booked your snack, you can also purchase food items on-board basis availability.
+
+           
+     </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What type of aircraft does Air Bharat fly?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>   Air Bharat operates the Airbus A320 CEO & NEO, the A321 NEO and the ATR 72-600 aircraft. The seating capacity on the A320 CEO fleet is 180 , A-320 NEO fleet is 180 /186 the A321 fleet is 222/232 and ATR Fleet is 78.
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What all cities does Air Bharat fly to?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+          Air Bharat has a total destination count of 40+ with 20+ domestic destinations and 10+ International.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
+
+
+
+
+
